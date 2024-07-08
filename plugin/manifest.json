@@ -1,0 +1,29 @@
+{
+  "manifest_version": 1,
+  "homepage_url": {
+  },
+  "version": "0.1.0",
+  "type": "APP",
+  "desktop": {
+    "js": ["js/cybozu-sample-ai-plugin-v0.1.0-desktop.js"],
+    "css": []
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/cybozu-sample-ai-plugin-v0.1.0-config.js"],
+    "css": []
+  },
+  "name": {
+    "ja": "サンプル AI プラグイン",
+    "en": "Sample AI plugin"
+  },
+  "description": {
+    "ja": "Azure Open APIを使ったサンプルプラグインです。",
+    "en": "Sample plugin which using Azure Open AI"
+  },
+  "mobile": {
+    "js": [],
+    "css": []
+  }
+}
